@@ -1,0 +1,11 @@
+* {
+    text-align: center;
+}
+
+.jumbotron {
+    height: 25rem;
+    width: 100%;
+    margin-bottom: 5rem;
+    opacity: .7;
+    height: min-content;
+}
