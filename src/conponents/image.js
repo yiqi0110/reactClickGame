@@ -109,9 +109,7 @@ class Image extends React.Component {
             <div className="card-body">
               <div className="row">
               {imageArr.map((image, index) => 
-                <div key={index} className="col-3">
                   <Button clickedState={image.clicked} imageURL={image.imageURL} index={index} handleClick={this.handleClicked} />
-                </div>
               )}
               </div>
             </div>
